@@ -163,5 +163,15 @@ function scrollHeader() {
 window.addEventListener("scroll", scrollHeader);
 
 /*==== Shoe scroll up button ====*/
+function scrollUp() {
+  const scrollTUp = document.getElementById("scroll-up");
+  // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
+  if (this.scrollY >= 560) {
+    scrollTUp.classList.add("show-scroll");
+  } else {
+    scrollTUp.classList.remove("show-scroll");
+  }
+}
+window.addEventListener("scroll", scrollUp);
 
 /*==== Dark/Night Theme ====*/
