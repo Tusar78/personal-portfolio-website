@@ -119,6 +119,11 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
     clickable: true,
     dynamicBullets: true,
   },
+  breakpoints: {
+    568: {
+      sliderPerView: 2,
+    }
+  }
 });
 
 /*==== Scroll section active link ====*/
