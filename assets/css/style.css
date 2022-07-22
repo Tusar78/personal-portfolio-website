@@ -826,7 +826,7 @@ img {
 .contact__icon {
   font-size: 2rem;
   color: var(--first-color);
-  margin-bottom: var(--mb-0-75);
+  margin-right: var(--mb-0-75);
 }
 
 .contact__title {
